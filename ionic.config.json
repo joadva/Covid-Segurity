@@ -1,0 +1,7 @@
+{
+  "name": "covid-Segurity",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
