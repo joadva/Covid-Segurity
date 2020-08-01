@@ -31,7 +31,7 @@ https://github.com/joadva/Pistola-temperatura
 
 Backend
 
-http://45.79.192.222:3800/
+https://github.com/SergioSosaGonzalez/Covid-backend
 
 ## Instalar
 
