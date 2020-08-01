@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="mango">
+    <ion-title>Registration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding="true">
+  <img src="assets/images/logo.png" class="smallLogo" />
+  <h1>Create Account</h1>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">correo</ion-label>
+        <ion-input autocomplete="off" type="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Usuari</ion-label>
+        <ion-input autocomplete="off" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Contraseña</ion-label>
+        <ion-input autocomplete="off" type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Area</ion-label>
+        <ion-input autocomplete="off" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Cargo</ion-label>
+        <ion-input autocomplete="off" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        Ya tienes una cuenta? <a routerLink="/login"> Registrarse.</a>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="block" share="round" color="secondary"
+      >Registration</ion-button
+    >
+  </form>
+</ion-content>

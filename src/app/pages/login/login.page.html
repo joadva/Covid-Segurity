@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="mango"> </ion-toolbar>
+</ion-header>
+
+<ion-content padding="true">
+  <img src="assets/images/logo.png" class="smallLogo" />
+  <h1>Iniciar Sesion</h1>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Usuario</ion-label>
+        <ion-input autocomplete="off" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Contraseña</ion-label>
+        <ion-input autocomplete="off" type="password"></ion-input>
+      </ion-item>
+
+      <ion-item lines="none">
+        <a routerLink="/signup">Crear Cuenta </a>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="block" share="round" color="secondary"
+      >Login</ion-button
+    >
+  </form>
+</ion-content>
