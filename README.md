@@ -25,6 +25,14 @@ Cuidará la salud de sus empleados y ayudará a que asciendan en su movilidad so
 
 ## Links
 
+PIStola
+
+https://github.com/joadva/Pistola-temperatura
+
+Backend
+
+http://45.79.192.222:3800/
+
 ## Instalar
 
 ## App movil
